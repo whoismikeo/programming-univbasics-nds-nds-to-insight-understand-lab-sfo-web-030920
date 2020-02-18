@@ -5,4 +5,4 @@ def directors_database
   @_db ||= YAML.load(rot13.call(File.open("directors_db").read.to_s))
 end
 
-pp directors_database
+pretty_print_nds = pp directors_database
