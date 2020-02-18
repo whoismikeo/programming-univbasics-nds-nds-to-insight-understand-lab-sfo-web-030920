@@ -20,3 +20,6 @@ def print_first_directors_movie_titles
   end
   # puts list
 end
+
+print_first_directors_movie_titles
+
