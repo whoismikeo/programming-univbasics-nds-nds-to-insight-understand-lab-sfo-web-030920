@@ -18,5 +18,5 @@ def print_first_directors_movie_titles
   for el in directors_database[0][:movies]
     list += el[:title] + '\n'
   end
-  return list
+  p list
 end
