@@ -10,5 +10,3 @@ end
 def pretty_print_nds(thing)
   pp thing
 end
-
-pretty_print_nds(directors_database)
