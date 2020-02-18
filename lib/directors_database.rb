@@ -14,11 +14,9 @@ end
 pretty_print_nds(directors_database)
 
 def print_first_directors_movie_titles
-  list = ""
+  # list = ""
   for el in directors_database[0][:movies]
-    list += el[:title] + '\n'
+    puts el[:title] + '\n'
   end
-  puts list
+  # puts list
 end
-
-print_first_directors_movie_titles
