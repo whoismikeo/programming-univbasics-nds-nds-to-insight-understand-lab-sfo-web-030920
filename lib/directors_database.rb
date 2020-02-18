@@ -6,4 +6,4 @@ def directors_database
 end
 
 
-pp directors_db
+pretty_print_nds = pp directors_db
