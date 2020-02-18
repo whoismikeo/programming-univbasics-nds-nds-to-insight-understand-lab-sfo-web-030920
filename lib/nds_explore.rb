@@ -8,5 +8,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  
+  for el in directors_database[0][:movies]
+    puts el[:title]
+  end
 end
