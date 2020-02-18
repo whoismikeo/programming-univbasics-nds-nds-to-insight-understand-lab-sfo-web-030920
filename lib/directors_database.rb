@@ -20,3 +20,5 @@ def print_first_directors_movie_titles
   end
   p list
 end
+
+print_first_directors_movie_titles
